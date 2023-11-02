@@ -1,93 +1,575 @@
 {
   "books":[
         {
-          "id":1,
-          "author": "Chinua Achebe",
-          "country": "Nigeria",
-          "language": "English",
-          "pages": 209,
-          "title": "Things Fall Apart",
-          "available":"true",
-          "year": 1958
+            "id": 136,
+            "status": "completed",
+            "chat_room_identifier": "59cac4c5-0623-45b6-9549-12ccf333d68b",
+            "created_at": "2023-08-16T13:51:07.690718+03:00",
+            "schedule_pick_up_time": "2023-08-16T15:50:49Z",
+            "customization": "uncovered",
+            "need_helpers": false,
+            "need_forklift": false,
+            "need_tools": false,
+            "load_is_upward": false,
+            "need_pallets": false,
+            "sub_total": "2413.00",
+            "delivery_distance_and_duration": {
+                "delivery_time": 800.0,
+                "distance": 1354.0
+            },
+            "pickup_completed": false,
+            "drop_off_completed": false,
+            "arrival": null,
+            "depature": null,
+            "pickup_delay_charges": "0.00",
+            "drop_off_delay_charges": "0.00",
+            "origin_address": "EDJA2755, 2755 Ubaid Ibn Al Muali, 6522، حي البادية، Dammam 32243, Saudi Arabia",
+            "destination_address": "7359 Wadi Dalaawi, 3522, Al Ammariyah District, Jeddah 22237, Saudi Arabia",
+            "order": {
+                "id": "e07684e5-f829-42c9-bbc7-a4a8a9148789",
+                "short_order_id": "XO3XVY",
+                "bayan_waybills_created": true,
+                "customer_profile": {
+                    "name": "ali hamed",
+                    "mobile_number": "966501234124",
+                    "profile_image": "https://horizons45-staging.s3.ap-southeast-1.amazonaws.com/media/image_picker_3F0F7700-0AA7-4059-9E93-1EDD32D2F3F5-52014-0000B1C830CA0A07598433C0-E278-437B-9282-B5AF597F07F1_compressed.jpg"
+                }
+            },
+            "truck": {
+                "id": 3,
+                "plate_number": "BSA-4528",
+                "vehicle_type": "Truck",
+                "model_year": "N/A",
+                "vehicle_color": "Yellow",
+                "chasis_number": "N/A",
+                "is_currently_parked": true,
+                "current_city": "dammam",
+                "truck_driver": {
+                    "name": "Jan Hanks",
+                    "mobile_number": "+966565151512"
+                },
+                "truck_category": {
+                    "id": 2,
+                    "category_name": "Beta",
+                    "weight": "8t",
+                    "height": "1.44m",
+                    "width": "2.2m",
+                    "type": "uncovered",
+                    "length": "6.2m"
+                }
+            },
+            "stop_points": [
+                {
+                    "id": 149,
+                    "contact": "1231313",
+                    "note": "p s 1",
+                    "ordering": 1,
+                    "type_of_stop": "pick_up",
+                    "extra_charges": "0.00",
+                    "arrival": null,
+                    "depature": null,
+                    "stop_completed": false,
+                    "lat": "24.7201487208765480",
+                    "long": "46.6760466992855100",
+                    "full_address": "RHWA2881, 2881 Abi Nasr Al Sawwaf, 6762، حي الورود، Riyadh 12251, Saudi Arabia",
+                    "short_address": "RHWA2881, 2881 Abi Nasr Al Sawwaf, 6762، حي الورود، Riyadh 12251, Saudi Arabia",
+                    "country": "Saudi Arabia",
+                    "state": "Riyadh Province",
+                    "postcode": "12251",
+                    "city": "Riyadh",
+                    "preferences": null,
+                    "materials": null
+                },
+                {
+                    "id": 150,
+                    "contact": "1231313213",
+                    "note": "d s 1",
+                    "ordering": 2,
+                    "type_of_stop": "drop_off",
+                    "extra_charges": "0.00",
+                    "arrival": null,
+                    "depature": null,
+                    "stop_completed": false,
+                    "lat": "24.7177588798313500",
+                    "long": "46.6745688021183000",
+                    "full_address": "6457 Abi Al Fath Ibn Abi Qasim, 2741, Al Wurud, Riyadh 12251, Saudi Arabia",
+                    "short_address": "6457 Abi Al Fath Ibn Abi Qasim, 2741, Al Wurud, Riyadh 12251, Saudi Arabia",
+                    "country": "Saudi Arabia",
+                    "state": "Riyadh Province",
+                    "postcode": "12251",
+                    "city": "Riyadh",
+                    "preferences": null,
+                    "materials": null
+                }
+            ],
+            "pick_up": {
+                "lat": "26.4236980633663240",
+                "long": "50.0892763584852300",
+                "contact": "231321312312313",
+                "address": "EDJA2755",
+                "note": "p 1",
+                "city_id": 13,
+                "preferences": null,
+                "materials": null
+            },
+            "drop_off": {
+                "lat": "21.4889612026038140",
+                "long": "39.1905676200985900",
+                "contact": "1231313",
+                "address": "JACE7359",
+                "note": "d 1",
+                "city_id": 18,
+                "preferences": null,
+                "materials": null
+            },
+            "recipient_info": {
+                "name": "JACE7359",
+                "contact": "1231313",
+                "address": "JACE7359",
+                "city_id": 18
+            }
         },
         {
-          "id":2,
-          "author": "Hans Christian Andersen",
-          "country": "Denmark",
-          "language": "Danish",
-          "pages": 784,
-          "title": "Fairy tales",
-          "available":"false",
-          "year": 1836
+            "id": 138,
+            "status": "completed",
+            "chat_room_identifier": "560fe47d-fb43-415a-8628-1197b053dd86",
+            "created_at": "2023-10-03T08:54:43.790732+03:00",
+            "schedule_pick_up_time": "2023-08-14T07:30:00Z",
+            "customization": "covered",
+            "need_helpers": true,
+            "need_forklift": true,
+            "need_tools": true,
+            "load_is_upward": true,
+            "need_pallets": true,
+            "sub_total": "208.95",
+            "delivery_distance_and_duration": {
+                "delivery_time": 50.0,
+                "distance": 47.0
+            },
+            "pickup_completed": false,
+            "drop_off_completed": false,
+            "arrival": null,
+            "depature": null,
+            "pickup_delay_charges": "0.00",
+            "drop_off_delay_charges": "0.00",
+            "origin_address": "6838 Muslimah Ibn Abdul Malik, 4859, Sultanah, Riyadh 12775, Saudi Arabia",
+            "destination_address": "RURC4119، 4119 عبدالقدوس الأنصاري، 7579, Ar Rimal, Riyadh 13256, Saudi Arabia",
+            "order": {
+                "id": "f51277c6-c350-4280-9a1e-88197c5ad29b",
+                "short_order_id": "ZTGXYX",
+                "bayan_waybills_created": false,
+                "customer_profile": {
+                    "name": "omar hamed",
+                    "mobile_number": "966111166666",
+                    "profile_image": "https://horizons45-staging.s3.ap-southeast-1.amazonaws.com/media/f334b569-db10-4113-92f5-60a73b783bee4194011956201085553_compressed4021818903205005605.jpg"
+                }
+            },
+            "truck": {
+                "id": 3,
+                "plate_number": "BSA-4528",
+                "vehicle_type": "Truck",
+                "model_year": "N/A",
+                "vehicle_color": "Yellow",
+                "chasis_number": "N/A",
+                "is_currently_parked": true,
+                "current_city": "dammam",
+                "truck_driver": {
+                    "name": "Jan Hanks",
+                    "mobile_number": "+966565151512"
+                },
+                "truck_category": {
+                    "id": 2,
+                    "category_name": "Beta",
+                    "weight": "8t",
+                    "height": "1.44m",
+                    "width": "2.2m",
+                    "type": "uncovered",
+                    "length": "6.2m"
+                }
+            },
+            "stop_points": [
+                {
+                    "id": 153,
+                    "contact": "3278356",
+                    "note": "Notes",
+                    "ordering": 1,
+                    "type_of_stop": "pick_up",
+                    "extra_charges": "0.00",
+                    "arrival": null,
+                    "depature": null,
+                    "stop_completed": false,
+                    "lat": "24.7296174039498840",
+                    "long": "46.8126778068977000",
+                    "full_address": "RQNE6460, 6460 Maatouq Ibn Mounih, 2933، حي النسيم الغربي، Riyadh 14231, Saudi Arabia",
+                    "short_address": "REMA8589",
+                    "country": "Saudi Arabia",
+                    "state": "Riyadh Province",
+                    "postcode": "14231",
+                    "city": "Riyadh",
+                    "preferences": [
+                        "use pallet",
+                        "frozen item"
+                    ],
+                    "materials": {
+                        "1": "block",
+                        "2": "wood"
+                    }
+                },
+                {
+                    "id": 154,
+                    "contact": "3200783",
+                    "note": "Notes",
+                    "ordering": 2,
+                    "type_of_stop": "drop_off",
+                    "extra_charges": "0.00",
+                    "arrival": null,
+                    "depature": null,
+                    "stop_completed": false,
+                    "lat": "24.7335559382794300",
+                    "long": "46.7756169612165000",
+                    "full_address": "PQMG+F8, Hafsah Bint Omar, Ar Rawdah, Riyadh 13211, Saudi Arabia",
+                    "short_address": "RHYA7010",
+                    "country": "Saudi Arabia",
+                    "state": "Riyadh Province",
+                    "postcode": "13211",
+                    "city": "Riyadh",
+                    "preferences": [
+                        "use pallet",
+                        "frozen item"
+                    ],
+                    "materials": {
+                        "1": "block",
+                        "2": "wood"
+                    }
+                }
+            ],
+            "pick_up": {
+                "lat": "24.6042270511771800",
+                "long": "46.6980516685152200",
+                "contact": "01883838833",
+                "address": "RHYA7010",
+                "note": "Drop at security",
+                "city_id": 2,
+                "preferences": [
+                    "use pallet",
+                    "frozen item"
+                ],
+                "materials": {
+                    "1": "block",
+                    "2": "wood"
+                }
+            },
+            "drop_off": {
+                "lat": "24.8533220250857300",
+                "long": "46.7985662184008400",
+                "contact": "01883838833",
+                "address": "RHYA7010",
+                "note": "N/A",
+                "city_id": 3,
+                "preferences": [
+                    "use pallet",
+                    "frozen item"
+                ],
+                "materials": {
+                    "1": "block",
+                    "2": "wood"
+                }
+            },
+            "recipient_info": {
+                "name": "Mia Mohamed",
+                "contact": "01883838833",
+                "address": "REMA8589",
+                "city_id": 1
+            }
         },
         {
-          "id":3,
-          "author": "Dante Alighieri",
-          "country": "Italy",
-          "language": "Italian",
-          "pages": 928,
-          "title": "The Divine Comedy",
-          "available":"false",
-          "year": 1315
+            "id": 142,
+            "status": "in_progress",
+            "chat_room_identifier": "59ad2caa-b5b9-4656-b2f9-bf87ed985de0",
+            "created_at": "2023-10-09T13:55:44.120727+03:00",
+            "schedule_pick_up_time": "2023-10-12T15:53:00Z",
+            "customization": "covered",
+            "need_helpers": false,
+            "need_forklift": true,
+            "need_tools": true,
+            "load_is_upward": false,
+            "need_pallets": false,
+            "sub_total": "1241.00",
+            "delivery_distance_and_duration": {
+                "delivery_time": 585.0,
+                "distance": 959.0
+            },
+            "pickup_completed": false,
+            "drop_off_completed": false,
+            "arrival": null,
+            "depature": null,
+            "pickup_delay_charges": "0.00",
+            "drop_off_delay_charges": "0.00",
+            "origin_address": "8589 Salah Ad Din Al Ayyubi Rd, Al Malaz, Riyadh 12842, Saudi Arabia",
+            "destination_address": "King Abdulaziz International Airport, King Abdulaziz International Airport, Jeddah Saudi Arabia",
+            "order": {
+                "id": "fa1d406d-e70e-4825-b898-3c6602c61203",
+                "short_order_id": "EOWE9S",
+                "bayan_waybills_created": true,
+                "customer_profile": {
+                    "name": "omar hamed",
+                    "mobile_number": "966111166666",
+                    "profile_image": "https://horizons45-staging.s3.ap-southeast-1.amazonaws.com/media/f334b569-db10-4113-92f5-60a73b783bee4194011956201085553_compressed4021818903205005605.jpg"
+                }
+            },
+            "truck": {
+                "id": 3,
+                "plate_number": "BSA-4528",
+                "vehicle_type": "Truck",
+                "model_year": "N/A",
+                "vehicle_color": "Yellow",
+                "chasis_number": "N/A",
+                "is_currently_parked": true,
+                "current_city": "dammam",
+                "truck_driver": {
+                    "name": "Jan Hanks",
+                    "mobile_number": "+966565151512"
+                },
+                "truck_category": {
+                    "id": 2,
+                    "category_name": "Beta",
+                    "weight": "8t",
+                    "height": "1.44m",
+                    "width": "2.2m",
+                    "type": "uncovered",
+                    "length": "6.2m"
+                }
+            },
+            "stop_points": [
+                {
+                    "id": 159,
+                    "contact": "3213213213",
+                    "note": "additional pickup",
+                    "ordering": 1,
+                    "type_of_stop": "pick_up",
+                    "extra_charges": "0.00",
+                    "arrival": null,
+                    "depature": null,
+                    "stop_completed": false,
+                    "lat": "24.9604790159487100",
+                    "long": "46.7023702338337900",
+                    "full_address": "Riyadh international Airport, King Khalid International Airport-Terminal 4, Airport Road, King Khalid International Airport, Riyadh 13458, Saudi Arabia",
+                    "short_address": "RUKB7273",
+                    "country": "Saudi Arabia",
+                    "state": "Riyadh Province",
+                    "postcode": "13458",
+                    "city": "Riyadh",
+                    "preferences": [
+                        "heavy"
+                    ],
+                    "materials": {
+                        "34": "wood"
+                    }
+                },
+                {
+                    "id": 160,
+                    "contact": "3213213213",
+                    "note": "main drop-off",
+                    "ordering": 2,
+                    "type_of_stop": "drop_off",
+                    "extra_charges": "0.00",
+                    "arrival": null,
+                    "depature": null,
+                    "stop_completed": false,
+                    "lat": "21.4198982862292800",
+                    "long": "39.8235749825835200",
+                    "full_address": "6973 حمزة بن عبدالمطلب، 4015, Al Hajlah, Makkah 24231, Saudi Arabia",
+                    "short_address": "MALA6973",
+                    "country": "Saudi Arabia",
+                    "state": "Makkah Province",
+                    "postcode": "24231",
+                    "city": "Makkah",
+                    "preferences": [
+                        "forklift"
+                    ],
+                    "materials": {
+                        "34": "pipe"
+                    }
+                }
+            ],
+            "pick_up": {
+                "lat": "24.6627512366230950",
+                "long": "46.7466561868786900",
+                "contact": "2223232323",
+                "address": "8589 Salah Ad Din Al Ayyubi Rd, Al Malaz, Riyadh 12842, Saudi Arabia",
+                "note": "main pick-up",
+                "city_id": 3,
+                "preferences": [
+                    "heavy",
+                    "use pallet"
+                ],
+                "materials": {
+                    "2": "sofa",
+                    "34": "pipe"
+                }
+            },
+            "drop_off": {
+                "lat": "21.6829992868439450",
+                "long": "39.1667147353291500",
+                "contact": "3123132132",
+                "address": "Jeddah International Airport, Jeddah Saudi Arabia",
+                "note": "main drop-off",
+                "city_id": 18,
+                "preferences": [
+                    "heavy",
+                    "use pallet"
+                ],
+                "materials": {
+                    "34": "wood"
+                }
+            },
+            "recipient_info": {
+                "name": "omar hamed",
+                "contact": "966111166666",
+                "address": "JFAA3267",
+                "city_id": 18
+            }
         },
         {
-          "id":4,
-          "author": "Unknown",
-          "country": "Sumer and Akkadian Empire",
-          "language": "Akkadian",
-          "pages": 160,
-          "title": "The Epic Of Gilgamesh",
-          "available":"true",
-          "year": -1700
-        },
-        {
-          "id":5,
-          "author": "Unknown",
-          "country": "Achaemenid Empire",
-          "language": "Hebrew",
-          "pages": 176,
-          "title": "The Book Of Job",
-          "available":"true",
-          "year": -600
+            "id": 143,
+            "status": "in_progress",
+            "chat_room_identifier": "e7a393c0-11d0-4957-be63-6f02e8127896",
+            "created_at": "2023-10-09T14:01:04.284127+03:00",
+            "schedule_pick_up_time": "2023-10-12T15:59:00Z",
+            "customization": "uncovered",
+            "need_helpers": false,
+            "need_forklift": true,
+            "need_tools": true,
+            "load_is_upward": false,
+            "need_pallets": false,
+            "sub_total": "2450.00",
+            "delivery_distance_and_duration": {
+                "delivery_time": 800.0,
+                "distance": 1286.0
+            },
+            "pickup_completed": false,
+            "drop_off_completed": false,
+            "arrival": null,
+            "depature": null,
+            "pickup_delay_charges": "0.00",
+            "drop_off_delay_charges": "0.00",
+            "origin_address": "Riyadh Front, 13412، King Khalid International Airport, Riyadh 13413, Saudi Arabia",
+            "destination_address": "CHHF+X4 Tabuk Saudi Arabia",
+            "order": {
+                "id": "9f025d38-d642-4017-a671-dec1781b9856",
+                "short_order_id": "PU7OI8",
+                "bayan_waybills_created": true,
+                "customer_profile": {
+                    "name": "omar hamed",
+                    "mobile_number": "966111166666",
+                    "profile_image": "https://horizons45-staging.s3.ap-southeast-1.amazonaws.com/media/f334b569-db10-4113-92f5-60a73b783bee4194011956201085553_compressed4021818903205005605.jpg"
+                }
+            },
+            "truck": {
+                "id": 3,
+                "plate_number": "BSA-4528",
+                "vehicle_type": "Truck",
+                "model_year": "N/A",
+                "vehicle_color": "Yellow",
+                "chasis_number": "N/A",
+                "is_currently_parked": true,
+                "current_city": "dammam",
+                "truck_driver": {
+                    "name": "Jan Hanks",
+                    "mobile_number": "+966565151512"
+                },
+                "truck_category": {
+                    "id": 2,
+                    "category_name": "Beta",
+                    "weight": "8t",
+                    "height": "1.44m",
+                    "width": "2.2m",
+                    "type": "uncovered",
+                    "length": "6.2m"
+                }
+            },
+            "stop_points": [
+                {
+                    "id": 161,
+                    "contact": "3213213213",
+                    "note": "additional pick-uppp",
+                    "ordering": 1,
+                    "type_of_stop": "pick_up",
+                    "extra_charges": "0.00",
+                    "arrival": null,
+                    "depature": null,
+                    "stop_completed": false,
+                    "lat": "24.6627512366230950",
+                    "long": "46.7466561868786900",
+                    "full_address": "8589 Salah Ad Din Al Ayyubi Rd, Al Malaz, Riyadh 12842, Saudi Arabia",
+                    "short_address": "REMA8589",
+                    "country": "Saudi Arabia",
+                    "state": "Riyadh Province",
+                    "postcode": "12842",
+                    "city": "Riyadh",
+                    "preferences": [],
+                    "materials": {
+                        "34": "steel"
+                    }
+                },
+                {
+                    "id": 162,
+                    "contact": "3123213213",
+                    "note": "additional drop-offfff",
+                    "ordering": 2,
+                    "type_of_stop": "drop_off",
+                    "extra_charges": "0.00",
+                    "arrival": null,
+                    "depature": null,
+                    "stop_completed": false,
+                    "lat": "21.4198982862292800",
+                    "long": "39.8235749825835200",
+                    "full_address": "6973 حمزة بن عبدالمطلب، 4015, Al Hajlah, Makkah 24231, Saudi Arabia",
+                    "short_address": "MALA6973",
+                    "country": "Saudi Arabia",
+                    "state": "Makkah Province",
+                    "postcode": "24231",
+                    "city": "Makkah",
+                    "preferences": [],
+                    "materials": {
+                        "34": "pipe"
+                    }
+                }
+            ],
+            "pick_up": {
+                "lat": "24.8349029092745800",
+                "long": "46.7295433580875400",
+                "contact": "3121321321",
+                "address": "Riyadh Front Exhibition & Convention center, Riyadh Saudi Arabia",
+                "note": "main pick",
+                "city_id": 3,
+                "preferences": [
+                    "heavy"
+                ],
+                "materials": {
+                    "34": "pipe"
+                }
+            },
+            "drop_off": {
+                "lat": "28.4299774128891980",
+                "long": "36.5728254988789560",
+                "contact": "2132132132",
+                "address": "Tabuk Park | تبوك بارك, King Faisal Road, Tabuk Saudi Arabia",
+                "note": "main drop-off",
+                "city_id": 1,
+                "preferences": [
+                    "heavy"
+                ],
+                "materials": {
+                    "34": "wood"
+                }
+            },
+            "recipient_info": {
+                "name": "omar hamed",
+                "contact": "966111166666",
+                "address": "KAAB4555",
+                "city_id": 1
+            }
         }
-    ],
-  "users":[
-      {
-        "id": 1,
-        "name": "Leanne Graham",
-        "username": "Bret",
-        "email": "Sincere@april.biz"
-      },
-      {
-        "id": 2,
-        "name": "Ervin Howell",
-        "username": "Antonette",
-        "email": "Shanna@melissa.tv"
-      },
-      {
-        "id": 3,
-        "name": "Clementine Bauch",
-        "username": "Samantha",
-        "email": "Nathan@yesenia.net"
-      },
-      {
-        "id": 4,
-        "name": "Patricia Lebsack",
-        "username": "Karianne",
-        "email": "Julianne.OConner@kory.org"
-      },
-      {
-        "id": 5,
-        "name": "Dennis Lebsack",
-        "username": "Dennista",
-        "email": "Dennis.test@kory.org"
-      }
-    ],
-  "admins":[
-    {
-      "email": "jean.eric.espiegle@gmail.com",
-      "password": "abcd1234",
-      "Token":"abcdefg1234567"
-    }
-  ]
+    ]
 }
